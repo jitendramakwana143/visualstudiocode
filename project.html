@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         /*css reset*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(/project/pexels-pixabay-46253.jpg);
+    background-repeat: no-repeat;
+    background-size: 825px 700px;
+}
+/* .left{
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    display: inline-block;
+    border: 2px solid red;
+} */
+.mid{
+    display: block;
+    width: 44%;
+    top: 24px;
+    padding: 2px;
+    margin: 22px auto;
+    /* border: 2px solid yellow; */
+   
+}
+.rigth{
+    position: absolute;
+    right: 19px;
+    top: 22px;
+    display: inline-block;
+     /* border: 2px solid white; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 19px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration:underline;
+    color:rgb(206, 184, 184);
+   
+}
+.btn{
+    margin: 0px;
+    padding: 3px 9px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius:15px;
+    cursor: pointer;
+    
+}
+.btn a{
+   text-decoration: none;
+   color: azure;
+}
+.btn:hover{
+   background-color: rgb(95, 85, 85);
+}
+.contianer{
+    margin: 73px 234px;
+    padding: 63px 54px;
+    width: 33%;
+    border-radius: 8px;
+    /* border: 2px solid rgb(18, 206, 11); */
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 186px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 15px auto;
+}
+.contianer h1{
+    text-align: center;
+}
+ .contianer button{
+     display: block;
+     width: 76px;
+     margin: auto;
+    
+     }
+     .contianer button a{
+        color: white;
+        text-decoration: none;
+        }
+
+     </style>
+    </head>
+<body>
+    <header class="header">
+       
+            <div class="mid">
+            <div class="navbar">
+                <li><a href="btnpage.html" class="active">Home</a></li>
+                <li><a href="btnpage.html">About us</a></li>
+                <li><a href="bg.png">Contect us</a></li>
+                </div> 
+       </div>
+        <div class="rigth">
+            <button class="btn"><a href="bg.png">Call Us now</a></button>
+            <button class="btn"><a href="bg.png">Email Now</a></button>
+        </div>
+    </header>
+    <div class="contianer">
+        <h1>Login Details..!</h1>
+       <div class="form-group">
+           <input type="email" name="" placeholder="Enter Your Email..">
+       </div>
+       <div class="form-group">
+        <input type="password" name="" placeholder="Enter Your Password..">
+    </div>
+      <button type="submit" class="btn">
+         <a href="btnpage.html"> Login.</a>
+      </button>
+    </div>
+</body>
+</html>
